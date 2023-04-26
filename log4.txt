@@ -1,0 +1,373 @@
+Id = 1
+Execution stack: 
+(string varf ; (varf = "test.in" ; (OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+string varf
+(varf = "test.in" ; (OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+string varf
+(varf = "test.in" ; (OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+(varf = "test.in" ; (OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))))))
+Symbol table: 
+varf -> ""
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+(varf = "test.in" ; (OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))))))
+Symbol table: 
+varf -> ""
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+varf = "test.in"
+(OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))))
+Symbol table: 
+varf -> ""
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+varf = "test.in"
+(OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))))
+Symbol table: 
+varf -> ""
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+(OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))))
+Symbol table: 
+varf -> "test.in"
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+(OpenRFile(varf) ; (int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))))
+Symbol table: 
+varf -> "test.in"
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+OpenRFile(varf)
+(int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))))
+Symbol table: 
+varf -> "test.in"
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+OpenRFile(varf)
+(int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))))
+Symbol table: 
+varf -> "test.in"
+Output list: 
+File table:
+Heap memory:
+
+Id = 1
+Execution stack: 
+(int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))))
+Symbol table: 
+varf -> "test.in"
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(int varc ; (ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))))
+Symbol table: 
+varf -> "test.in"
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+int varc
+(ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))
+Symbol table: 
+varf -> "test.in"
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+int varc
+(ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))
+Symbol table: 
+varf -> "test.in"
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))
+Symbol table: 
+varf -> "test.in"
+varc -> 0
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(ReadFile(varf, varc) ; (Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))))
+Symbol table: 
+varf -> "test.in"
+varc -> 0
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+ReadFile(varf, varc)
+(Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))
+Symbol table: 
+varf -> "test.in"
+varc -> 0
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+ReadFile(varf, varc)
+(Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))
+Symbol table: 
+varf -> "test.in"
+varc -> 0
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))
+Symbol table: 
+varf -> "test.in"
+varc -> 15
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(Print(varc) ; (ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf))))
+Symbol table: 
+varf -> "test.in"
+varc -> 15
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+Print(varc)
+(ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))
+Symbol table: 
+varf -> "test.in"
+varc -> 15
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+Print(varc)
+(ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))
+Symbol table: 
+varf -> "test.in"
+varc -> 15
+Output list: 
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))
+Symbol table: 
+varf -> "test.in"
+varc -> 15
+Output list: 
+15
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(ReadFile(varf, varc) ; (Print(varc) ; CloseRFile(varf)))
+Symbol table: 
+varf -> "test.in"
+varc -> 15
+Output list: 
+15
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+ReadFile(varf, varc)
+(Print(varc) ; CloseRFile(varf))
+Symbol table: 
+varf -> "test.in"
+varc -> 15
+Output list: 
+15
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+ReadFile(varf, varc)
+(Print(varc) ; CloseRFile(varf))
+Symbol table: 
+varf -> "test.in"
+varc -> 15
+Output list: 
+15
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(Print(varc) ; CloseRFile(varf))
+Symbol table: 
+varf -> "test.in"
+varc -> 50
+Output list: 
+15
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+(Print(varc) ; CloseRFile(varf))
+Symbol table: 
+varf -> "test.in"
+varc -> 50
+Output list: 
+15
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+Print(varc)
+CloseRFile(varf)
+Symbol table: 
+varf -> "test.in"
+varc -> 50
+Output list: 
+15
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+Print(varc)
+CloseRFile(varf)
+Symbol table: 
+varf -> "test.in"
+varc -> 50
+Output list: 
+15
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+CloseRFile(varf)
+Symbol table: 
+varf -> "test.in"
+varc -> 50
+Output list: 
+15
+50
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+CloseRFile(varf)
+Symbol table: 
+varf -> "test.in"
+varc -> 50
+Output list: 
+15
+50
+File table:
+test.in
+Heap memory:
+
+Id = 1
+Execution stack: 
+Symbol table: 
+varf -> "test.in"
+varc -> 50
+Output list: 
+15
+50
+File table:
+Heap memory:
+
